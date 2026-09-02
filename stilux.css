@@ -5,5 +5,15 @@ header {
 
 main {
     display: flex;
+    justify-content: space-around;
+}
+
+#body {
+    display: flex;
+    justify-content: center
+}
+
+.main {
+    display: flex;
     justify-content: center;
 }
