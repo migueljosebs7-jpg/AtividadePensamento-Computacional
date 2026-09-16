@@ -1,19 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.oi {
+    display: flex;
+    flex-direction: column;
+}
+
+
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(126, 203, 255);
+    padding: 15px;
+}
+
+#ai {
+    display: flex;
+    gap: 20px;
 }
 
 main {
     display: flex;
     justify-content: space-around;
+    align-items: flex-end;
 }
 
 #body {
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 
 .main {
     display: flex;
     justify-content: center;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: flex-end;
 }
