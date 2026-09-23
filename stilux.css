@@ -10,10 +10,11 @@
 
 
 header {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(126, 203, 255);
+    background-color: rgba(255, 0, 0, 0.747);
     padding: 15px;
 }
 
@@ -26,7 +27,6 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-}
 
 #body {
     display: flex;
